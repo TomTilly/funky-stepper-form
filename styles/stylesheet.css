@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background: purple;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  background: #FCFCFC;
+  box-shadow: 0 0 10px #030303;
+  border-radius: 3px;
+  padding: 30px;
+}
+
+.form__fieldset {
+  border: none;
+}
