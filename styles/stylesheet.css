@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 *, *::before, *::after {
@@ -17,7 +18,7 @@ body {
 
 .form {
   background: #FCFCFC;
-  box-shadow: 0 0 30px #0303036b;
+  box-shadow: 0 0 30px rgba(3,3,3,0.419);
   border-radius: 3px;
   padding: 30px;
   width: 90%;
