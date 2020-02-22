@@ -20,6 +20,14 @@ body {
   box-shadow: 0 0 10px #030303;
   border-radius: 3px;
   padding: 30px;
+  width: 90%;
+  min-height: 300px;
+}
+
+@media (min-width: 576px) {
+  .form {
+    width: 70%;
+  }
 }
 
 .form__fieldset {
