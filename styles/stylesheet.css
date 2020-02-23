@@ -8,7 +8,16 @@ html {
 }
 
 body {
-  background: purple;
+  background: 
+    radial-gradient(circle at 50% 0,
+    rgba(255, 17, 0, 0.548),
+    rgba(255,0,0,0) 70%),
+  radial-gradient(at 30% 75%,
+    rgba(211, 83, 162, 0.5),
+    rgba(117, 83, 211, 0.2) 70%),
+  radial-gradient(circle at 93.3% 75%,
+    rgba(211, 64, 6, 0.5),
+    rgba(211, 64, 6, 0) 70.71%) rgba(212, 78, 1, 0.322);
   margin: 0;
   height: 100vh;
   display: flex;
@@ -42,4 +51,9 @@ body {
   border: none;
   padding: 0;
   margin: 0;
+}
+
+.form__label {
+  display: block;
+  text-align: center;
 }
