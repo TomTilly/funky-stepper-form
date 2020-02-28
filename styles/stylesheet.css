@@ -1,3 +1,8 @@
+:root {
+  --blue: #789fdb;
+  --dark-blue: #2f67b9;
+}
+
 html {
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
@@ -33,6 +38,9 @@ body {
   width: 90%;
   height: 70%;
   max-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media (min-width: 576px) {
@@ -45,6 +53,7 @@ body {
   text-align: center;
   margin-top: 0;
   margin-bottom: 1.5em;
+  width: 50%;
 }
 
 .form__fieldset {
@@ -55,8 +64,39 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 50%;
 }
 
 .form__label {
   margin-bottom: 2em;
+}
+
+.form__input {
+  padding: 1em;
+}
+
+.hide {
+  display: none;
+}
+
+.form__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.form__btn {
+  cursor: pointer;
+  color: white;
+  background: var(--blue);
+  padding: 1em 3em;
+}
+
+.form__next-btn:hover {
+  background: var(--dark-blue);
+}
+
+.form__arrow {
+  fill: white;
 }

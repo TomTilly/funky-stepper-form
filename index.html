@@ -15,21 +15,30 @@
     <div class="form__navigation"></div>
     <div class="form__fieldset">
       <label class="form__label" for="username">Enter your Username</label>
-      <input type="text" name="username" id="username">
+      <input class="form__input" type="text" name="username" id="username">
     </div>
-    <div class="form__fieldset">
+    <div class="form__fieldset hide">
       <label class="form__label" for="email">Enter your Email</label>
-      <input type="email" name="password" id="email">
+      <input class="form__input" type="email" name="password" id="email">
     </div>
-    <div class="form__fieldset">
+    <div class="form__fieldset hide">
       <label class="form__label" for="password">Enter a Password</label>
-      <input type="password" name="password" id="password">
+      <input class="form__input" type="password" name="password" id="password">
     </div>
-    <div class="form__complete">
+    <div class="form__complete hide">
       Thank you for completing this form.
     </div>
     <div class="form__nav">
-
+      <button class="form__btn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="form__arrow" width="24" height="24" viewBox="0 0 24 24">
+          <path d="M16.67 0l2.83 2.829-9.339 9.175 9.339 9.167-2.83 2.829-12.17-11.996z" />
+        </svg>
+      </button>
+      <button class="form__btn">
+        <svg xmlns="http://www.w3.org/2000/svg" class="form__arrow" width="24" height="24" viewBox="0 0 24 24">
+          <path d="M5 3l3.057-3 11.943 12-11.943 12-3.057-3 9-9z" />
+        </svg>
+      </button>
     </div>
   </form>
   <script src="scripts/main.js"></script>
