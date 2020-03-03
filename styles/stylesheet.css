@@ -1,6 +1,7 @@
 :root {
   --primary: #904e95;
   --secondary: #e96443;
+  --dark-primary: #78417c;
 }
 
 html {
@@ -29,6 +30,7 @@ body {
   border-radius: 3px;
   padding: 30px;
   width: 90%;
+  max-width: 600px;
   height: 70%;
   max-height: 300px;
   display: flex;
@@ -68,6 +70,10 @@ body {
   padding: 1em;
 }
 
+.form__input:focus {
+  outline: 1px solid var(--primary);
+}
+
 .hide {
   display: none;
 }
@@ -84,6 +90,16 @@ body {
   color: white;
   background: var(--primary);
   padding: 1em 3em;
+  transition: background .5s;
+}
+
+.form__btn:hover {
+  background: var(--dark-primary);
+}
+
+.form__btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px white, 0 0 0 4px var(--primary);
 }
 
 .form__next-btn:hover {
